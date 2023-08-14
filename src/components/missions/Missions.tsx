@@ -1,18 +1,21 @@
 import dataMissions from '../../data/missions'
-import PlanetCard from './MissionCard'
+import MissionCard from './MissionCard'
 
 function Missions() {
     return (
-        <div>
+        <main>
+            <h2>Missões</h2>
             {
-                dataMissions.map((planet, index) => (
-                    <PlanetCard key={index}
-                        planetImg={planet.image}
-                        planetName={planet.name}
+                dataMissions.map((mission, index) => (
+                    <MissionCard key={index}
+                        missionName={mission.name}
+                        missionYear={mission.year}
+                        missionCountry={mission.country}
+                        missionDestionation={mission.destination}
                     />
                 ))
             }
-        </div>
+        </main>
     )
 }
 

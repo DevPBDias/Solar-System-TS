@@ -3,7 +3,8 @@ import PlanetCard from './PlanetCard'
 
 function Planets() {
     return (
-        <div>
+        <section>
+            <h2>Planetas</h2>
             {
                 dataPlanets.map((planet, index) => (
                     <PlanetCard key={index}
@@ -12,7 +13,7 @@ function Planets() {
                     />
                 ))
             }
-        </div>
+        </section>
     )
 }
 

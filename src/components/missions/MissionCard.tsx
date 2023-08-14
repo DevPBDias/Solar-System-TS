@@ -1,19 +1,25 @@
 
-type IPlanetCard = {
-    planetName: string,
-    planetImg: string
+type IMissionCard = {
+    missionName: string,
+    missionYear: string,
+    missionCountry: string,
+    missionDestionation: string,
 }
 
-function PlanetCard(props: IPlanetCard) {
-    const { planetImg, planetName } = props;
+function MissionCard(props: IMissionCard) {
+    const { missionName, missionYear, missionCountry, missionDestionation } = props;
 
     return (
         <section>
-            <img src={planetImg} alt={planetName} />
-            <p>{planetName}</p>
+            <p>{missionName}</p>
+            <div>
+                <p>{missionYear}</p>
+                <p>{missionCountry}</p>
+                <p>{missionDestionation}</p>
+            </div>
         </section>
 
     )
 }
 
-export default PlanetCard
+export default MissionCard
