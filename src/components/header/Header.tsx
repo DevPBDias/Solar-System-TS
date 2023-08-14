@@ -1,8 +1,14 @@
 
-function Header() {
+type HeaderProps = {
+    title: string
+}
+
+function Header({ title }: HeaderProps) {
     return (
-        <div>Header</div>
+        <header>
+            <img src={title} alt='logo' />
+        </header>
     )
 }
 
-export default Header
+export default Header;
