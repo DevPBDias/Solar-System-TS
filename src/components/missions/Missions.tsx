@@ -1,11 +1,11 @@
-import dataPlanets from '../../data/planets'
-import PlanetCard from './PlanetCard'
+import dataMissions from '../../data/missions'
+import PlanetCard from './MissionCard'
 
-function Planets() {
+function Missions() {
     return (
         <div>
             {
-                dataPlanets.map((planet, index) => (
+                dataMissions.map((planet, index) => (
                     <PlanetCard key={index}
                         planetImg={planet.image}
                         planetName={planet.name}
@@ -16,4 +16,4 @@ function Planets() {
     )
 }
 
-export default Planets
+export default Missions

@@ -1,7 +1,14 @@
-const USA = 'Estados Unidos';
-const URSS = 'URSS';
+const USA: string = 'Estados Unidos';
+const URSS: string = 'URSS';
 
-const Missions = [
+type IMissions = {
+  name: string,
+  year: string,
+  country: string,
+  destination: string,
+}
+
+const Missions: IMissions[] = [
   {
     name: 'Apollo 11',
     year: '1960',

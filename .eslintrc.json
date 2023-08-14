@@ -1,15 +1,3 @@
 {
-    "extends": "@trybe/eslint-config-frontend/typescript",
-    "rules": {
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "js": "never",
-                "jsx": "never",
-                "ts": "never",
-                "tsx": "never"
-            }
-        ]
-    }
+    "extends": "@trybe/eslint-config-frontend/typescript"
 }
