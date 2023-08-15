@@ -1,4 +1,4 @@
-const USA: string = 'Estados Unidos';
+const USA: string = 'USA';
 const URSS: string = 'URSS';
 
 type IMissions = {
@@ -30,7 +30,7 @@ const Missions: IMissions[] = [
   {
     name: 'Estação Internacional Espacial',
     year: '1998',
-    country: 'Estados Unidos e Rússia',
+    country: `${USA} - ${URSS}`,
     destination: 'Órbita terrestre',
   },
   {
@@ -42,7 +42,7 @@ const Missions: IMissions[] = [
   {
     name: 'Cassini-Huygens',
     year: '2009',
-    country: 'Estados Unidos e União Europeia',
+    country: `${USA} - UE`,
     destination: 'Saturno',
   },
   {
@@ -126,7 +126,7 @@ const Missions: IMissions[] = [
   {
     name: 'Cassini/Huygens',
     year: '1997',
-    country: 'Estados Unidos e Europa',
+    country: `${USA} - UE`,
     destination: 'Saturno',
   },
 ];

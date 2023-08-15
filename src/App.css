@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400&family=Fira+Code:wght@400;700&family=Open+Sans:wght@600;700;800&display=swap');
+
 body {
     background-image: url('./assets/background.png');
-    color: white
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
 }

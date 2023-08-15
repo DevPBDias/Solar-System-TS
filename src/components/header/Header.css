@@ -1,0 +1,9 @@
+.solarTitle {
+    padding: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}

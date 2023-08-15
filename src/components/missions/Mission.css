@@ -1,0 +1,79 @@
+.missionContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 1098px;
+    border-radius: 30px;
+    opacity: 81%;
+    margin: auto;
+    border: 1px solid #FFFFFF;
+}
+
+.missionTile {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.missionCard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 496px;
+    height: 192px;
+    border-radius: 17px;
+    border: 1px solid #FFFFFF;
+    margin: 16px;
+    background-color: #181A25;
+}
+
+.missionCardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.missionName {
+    width: 451px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.missionText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    padding: 4px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.missionInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    border-top: 1px solid #FFFFFF;
+}
+
+.containerInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 30px;
+    height: 30px;
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+}

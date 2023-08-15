@@ -1,3 +1,4 @@
+import './Header.css'
 
 type HeaderProps = {
     title: string
@@ -6,7 +7,7 @@ type HeaderProps = {
 function Header({ title }: HeaderProps) {
     return (
         <header>
-            <img src={title} alt='logo' />
+            <img src={title} alt='logo' className="solarTitle" />
         </header>
     )
 }

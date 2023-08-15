@@ -1,0 +1,80 @@
+.card-planet {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+}
+
+.Mercúrio {
+    width: 41px;
+    height: 31px;
+}
+
+.Vênus {
+    width: 102px;
+    height: 76px;
+}
+
+.Terra {
+    width: 106px;
+    height: 79px;
+}
+
+.Marte {
+    width: 66px;
+    height: 50px;
+}
+
+.Júpiter {
+    width: 272px;
+    height: 204px;
+}
+
+.Saturno {
+    width: 282px;
+    height: 210px;
+    rotate: 16.53;
+}
+
+.Urano {
+    width: 144px;
+    height: 109px;
+}
+
+.Netuno {
+    width: 144px;
+    height: 107px;
+    rotate: -180;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: end;
+}
+
+.planetContainer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.planetTitle {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cardContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    align-items: center;
+}
